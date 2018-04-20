@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="application.controller.MainController">
+  <!-- TODO Add Nodes -->
+  <children>
+    <Text layoutX="48.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="My Fitness App">
+      <font>
+        <Font name="Good Times" size="38.0" />
+      </font>
+    </Text>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="65.0" layoutX="95.0" layoutY="124.0" stroke="BLACK" strokeType="INSIDE" width="311.0" />
+    <RadioButton layoutX="107.0" layoutY="147.0" mnemonicParsing="false" text="Cardio">
+      <font>
+        <Font name="Good Times" size="17.0" fx:id="x1" />
+      </font>
+    </RadioButton>
+    <RadioButton font="$x1" layoutX="250.0" layoutY="147.0" mnemonicParsing="false" text="Strength" />
+    <Button fx:id="start" layoutX="203.0" layoutY="312.0" mnemonicParsing="false" onAction="#handle" text="Start Workout" />
+  </children>
+</AnchorPane>
