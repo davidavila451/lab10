@@ -1,8 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane xmlns:fx="http://javafx.com/fxml/1">
-	<!-- TODO Add Nodes -->
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.CompleteController.CompleteController">
+   <children>
+      <Text layoutX="115.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="My Fitness App">
+         <font>
+            <Font name="Comic Sans MS" size="38.0" />
+         </font>
+      </Text>
+      <Text fill="#22ff00" layoutX="147.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Workout Complete">
+         <font>
+            <Font name="Comic Sans MS" size="24.0" />
+         </font>
+      </Text>
+      <Button id="home" fx:id="home" layoutX="125.0" layoutY="389.0" mnemonicParsing="false" onAction="#handle" prefHeight="50.0" prefWidth="250.0" style="-fx-background-color: #a2a3a5;" text="Home" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="165.0" fitWidth="160.0" layoutX="172.0" layoutY="201.0">
+         <image>
+            <Image url="@../../../Balloons-for-Birthday-Party.jpg" />
+         </image>
+      </ImageView>
+   </children>
 </AnchorPane>
-

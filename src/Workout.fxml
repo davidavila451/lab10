@@ -1,8 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane xmlns:fx="http://javafx.com/fxml/1">
-	<!-- TODO Add Nodes -->
-</AnchorPane>
 
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="application.controller.WorkoutController.WorkoutController">
+   <children>
+      <Text layoutX="115.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="My Fitness App">
+         <font>
+            <Font name="Comic Sans MS" size="38.0" />
+         </font>
+      </Text>
+      <Text layoutX="172.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Workout:">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Text>
+      <Text id="exercise" fx:id="exercise" layoutX="252.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Text>
+      <ImageView id="image" fx:id="image" fitHeight="195.0" fitWidth="282.0" layoutX="111.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true" />
+      <Text fill="DODGERBLUE" layoutX="152.0" layoutY="350.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Exercise:">
+         <font>
+            <Font name="Comic Sans MS" size="24.0" />
+         </font>
+      </Text>
+      <Text id="workout" fx:id="workout" fill="DODGERBLUE" layoutX="266.0" layoutY="350.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font name="Comic Sans MS" size="24.0" />
+         </font>
+      </Text>
+      <Text fill="RED" layoutX="124.0" layoutY="377.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Time remaining:">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Text>
+      <Text id="time" fx:id="time" fill="RED" layoutX="266.0" layoutY="377.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#3e7534" layoutX="178.0" layoutY="413.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Progress: exercise">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#3e7534" layoutX="340.0" layoutY="413.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
